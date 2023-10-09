@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/ContadorDeClicksv20" />
+        <option name="gradleJvm" value="corretto-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/ContadorDeClicksv20" />
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/ContadorDeClicksv20/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/Fragments" />
+        <option name="gradleJvm" value="corretto-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/Fragments" />
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/Fragments/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/MultiContador" />
+        <option name="gradleJvm" value="corretto-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/MultiContador" />
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/MultiContador/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/Navigation" />
+        <option name="gradleJvm" value="corretto-19" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/Navigation" />
+            <option value="$PROJECT_DIR$/MP08 Programació multimèdia i disp. Mòbils/Projects/Navigation/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
