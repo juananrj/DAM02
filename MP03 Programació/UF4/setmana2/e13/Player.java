@@ -1,20 +1,24 @@
 package setmana2.e13;
 
-class Player {
-    private String name;
-    private int points;
 
-    public Player(String name) {
-        this.name = name;
-        this.points = 0;
+public class Player {
+    private String playerName;
+    private int totalPoints;
+
+    public Player(String playerName) {
+        this.playerName = playerName;
+        this.totalPoints = 0;
     }
 
-    public void addPoints(int points) {
-        this.points += points;
+    public String getPlayerName() {
+        return playerName;
     }
 
-    @Override
-    public String toString() {
-        return name + " - Points: " + points;
+    public int getTotalPoints() {
+        return totalPoints;
+    }
+
+    public void setTotalPoints(int totalPoints) {
+        this.totalPoints = totalPoints;
     }
 }

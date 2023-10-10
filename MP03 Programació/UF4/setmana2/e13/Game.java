@@ -1,31 +1,30 @@
+
 package setmana2.e13;
-import java.util.*;
-class Game {
-    private int level;
-    private ArrayList<Player> players;
+
+
+
+public class Game {
+    private int currentGameLevel;
+    private int currentNumPlayers;
 
     public Game() {
-        this.level = 1;
-        this.players = new ArrayList<>();
+        this.currentGameLevel = 1;
+        this.currentNumPlayers = 1;
     }
 
-    public void setLevel(int level) {
-        this.level = level;
+    public int getCurrentGameLevel() {
+        return currentGameLevel;
     }
 
-    public void setPlayers(int numPlayers) {
-        if (numPlayers <= 4) {
-            players.clear();
-            for (int i = 1; i <= numPlayers; i++) {
-                players.add(new Player("Player " + i));
-            }
-        } else {
-            System.out.println("Maximum players allowed is 4.");
-        }
+    public int getCurrentNumPlayers() {
+        return currentNumPlayers;
     }
 
-    public void play() {
-        System.out.println("Current game level: " + level);
-        System.out.println("Current number of players: " + players.size());
+    public void setCurrentGameLevel(int currentGameLevel) {
+        this.currentGameLevel = currentGameLevel;
+    }
+
+    public void setCurrentNumPlayers(int currentNumPlayers) {
+        this.currentNumPlayers = currentNumPlayers;
     }
 }
