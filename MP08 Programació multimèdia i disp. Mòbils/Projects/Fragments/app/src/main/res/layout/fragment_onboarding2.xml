@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:adjustViewBounds="true"
-        android:src="@drawable/ic_onboarding2"
+        android:src="@drawable/onboarding2"
         app:layout_constraintBottom_toTopOf="@+id/texto"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
