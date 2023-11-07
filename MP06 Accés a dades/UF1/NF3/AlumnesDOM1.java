@@ -22,6 +22,10 @@ public class AlumnesDOM1 {
         List<Alumne> alumnes = new ArrayList<>();
         alumnes.add(new Alumne("12345678A", "Juan", "Pérez", "Gómez", "Barcelona", "Matemáticas, Física", 25));
         alumnes.add(new Alumne("87654321B", "María", "López", "Sánchez", "Madrid", "Historia, Literatura", 22));
+        alumnes.add(new Alumne("11111111C", "Pepito", "Pérez", "Gómez", "Barcelona", "Matemáticas, Física", 25));
+        alumnes.add(new Alumne("22222222D", "Fulanito", "López", "Sánchez", "Madrid", "Historia, Literatura", 22));
+        alumnes.add(new Alumne("33333333E", "Menganito", "Pérez", "Gómez", "Barcelona", "Matemáticas, Física", 25));
+        alumnes.add(new Alumne("44444444F", "Zutanito", "López", "Sánchez", "Madrid", "Historia, Literatura", 22));
 
         try {
             DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();

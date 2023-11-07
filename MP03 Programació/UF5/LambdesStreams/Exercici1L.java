@@ -28,12 +28,9 @@ public class Exercici1L {
         // 1 - Canviar a lambda
 
         System.out.println("\n1 - Canviar a Lambda");
-        Collections.sort(llistaPersones, new Comparator<Persona>() {
-            @Override
-            public int compare(Persona o1, Persona o2) {
-                if (o1.getNom().charAt(0) >= o2.getNom().charAt(0)) return 1;
-                else return -1;
-            }
+        llistaPersones.sort((o1, o2) -> {
+            if (o1.getNom().charAt(0) >= o2.getNom().charAt(0)) return 1;
+            else return -1;
         });
 
         // 2 - Canviar a Lambda
@@ -56,7 +53,6 @@ public class Exercici1L {
         for (Persona p : llistaPersones) {
             System.out.println(p);
         }
-        ;
 
 
         // 5 - Omplir map. Canviar el for-llop per un forEach amb lambda
@@ -106,7 +102,7 @@ public class Exercici1L {
             freqEdats.computeIfPresent(edat, (key, oldValue) -> oldValue + 1);
 
             // Utilizar map.computeIfAbsent para agregar una nueva clave si no existe y establecer la frecuencia en 1
-            freqEdats.computeIfAbsent(edat, key -> 1);
+            freqEdats.putIfAbsent(edat, 1);
 
             // Utilizar map.putIfAbsent para asegurarse de que la clave existe y, si no existe, establecer la frecuencia en 0
             freqEdats.putIfAbsent(edat, 0);
@@ -122,6 +118,7 @@ public class Exercici1L {
         // 8 - llistat de persones DONA amb lambda (stream)
 
         System.out.println("\n8 - Llistat de persones DONA");
+
         List<Persona> donaList = llistaPersones.stream()
                 .filter(persona -> persona.getGenere() == Persona.Genere.DONA)
                 .toList(); // Convierte el resultado en una lista
@@ -188,7 +185,7 @@ public class Exercici1L {
 
         System.out.println("\n13 - Rejovenir dos anys a totes les persones");
 
-        llistaPersones.stream()
+        llistaPersones
                 .forEach(persona -> persona.setDataNaixament(persona.getDataNaixament().minusYears(2)));
 
         System.out.println("Lista de personas rejuvenecidas 2 años:");
