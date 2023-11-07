@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id augmentar1
+id augmentar2
+id augmentar3
+id augmentar4
+id contador1
+id contador2
+id contador3
+id contador4
+id contadorAll
+id reset1
+id reset2
+id reset3
+id reset4
+id resetAll
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.MultiContador
+style Theme.MultiContador
+xml backup_rules
+xml data_extraction_rules
