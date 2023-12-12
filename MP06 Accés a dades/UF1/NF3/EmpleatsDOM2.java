@@ -16,7 +16,7 @@ public class EmpleatsDOM2 {
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
 
             // Parsear el archivo XML
-            Document doc = docBuilder.parse(new File("empleats.xml"));
+            Document doc = docBuilder.parse(new File("UF1/NF3/empleats.xml"));
 
             // Obtener la lista de nodos "Empleat"
             NodeList empleatsList = doc.getElementsByTagName("Empleat");

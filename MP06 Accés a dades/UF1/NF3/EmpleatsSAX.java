@@ -52,7 +52,7 @@ public class EmpleatsSAX {
                 }
             };
 
-            saxParser.parse("empleats.xml", handler);
+            saxParser.parse("UF1/NF3/empleats.xml", handler);
 
         } catch (Exception e) {
             e.printStackTrace();

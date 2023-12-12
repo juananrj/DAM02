@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5bbc338e-c0e7-4f68-9646-a93fdb03b1cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../M06/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M06/src/main/java/MainMuseum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../M06/src/main/java/Museum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MP09 Programació de serveis i processos/a3/BarberoDurmiente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UF5/exceptions-juananrj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UF5/exceptions-juananrj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP06 Accés a dades/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MP06 Accés a dades/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP06 Accés a dades/UF1/NF3/AlumnesSAX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MP06 Accés a dades/UF1/NF3/AlumnesSAX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP06 Accés a dades/UF1/NF3/EmpleatsDOM2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MP06 Accés a dades/UF1/NF3/EmpleatsDOM2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP06 Accés a dades/UF1/NF3/EmpleatsSAX.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MP06 Accés a dades/UF1/NF3/EmpleatsSAX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP08 Programació multimèdia i disp. Mòbils/Projects/imcProject/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MP08 Programació multimèdia i disp. Mòbils/Projects/imcProject/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP08 Programació multimèdia i disp. Mòbils/Projects/imcProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MP08 Programació multimèdia i disp. Mòbils/Projects/imcProject/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MP09 Programació de serveis i processos/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../MP09 Programació de serveis i processos/.idea/.name" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2ZRhgQxf7IxBqTu9MYvUJ2ofH0z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/juanan/Github/DAM02/MP03 Programació/UF6"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-8336523bb0d9-cc9f59e6" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5bbc338e-c0e7-4f68-9646-a93fdb03b1cb" name="Changes" comment="" />
+      <created>1702390910354</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702390910354</updated>
+    </task>
+    <servers />
+  </component>
+</project>

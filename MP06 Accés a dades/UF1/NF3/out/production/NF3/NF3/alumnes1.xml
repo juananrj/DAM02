@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Alumnes>
+    <Alumne Edat="25">
+        <DNI1>12345678A</DNI1>
+        <Nom>Juan</Nom>
+        <Cognom1>Pérez</Cognom1>
+        <Cognom2>Gómez</Cognom2>
+        <Ciutat>Barcelona</Ciutat>
+        <Assignatures>Matemáticas, Física</Assignatures>
+    </Alumne>
+    <Alumne Edat="22">
+        <DNI1>87654321B</DNI1>
+        <Nom>María</Nom>
+        <Cognom1>López</Cognom1>
+        <Cognom2>Sánchez</Cognom2>
+        <Ciutat>Madrid</Ciutat>
+        <Assignatures>Historia, Literatura</Assignatures>
+    </Alumne>
+    <Alumne Edat="25">
+        <DNI1>11111111C</DNI1>
+        <Nom>Pepito</Nom>
+        <Cognom1>Pérez</Cognom1>
+        <Cognom2>Gómez</Cognom2>
+        <Ciutat>Barcelona</Ciutat>
+        <Assignatures>Matemáticas, Física</Assignatures>
+    </Alumne>
+    <Alumne Edat="22">
+        <DNI1>22222222D</DNI1>
+        <Nom>Fulanito</Nom>
+        <Cognom1>López</Cognom1>
+        <Cognom2>Sánchez</Cognom2>
+        <Ciutat>Madrid</Ciutat>
+        <Assignatures>Historia, Literatura</Assignatures>
+    </Alumne>
+    <Alumne Edat="25">
+        <DNI1>33333333E</DNI1>
+        <Nom>Menganito</Nom>
+        <Cognom1>Pérez</Cognom1>
+        <Cognom2>Gómez</Cognom2>
+        <Ciutat>Barcelona</Ciutat>
+        <Assignatures>Matemáticas, Física</Assignatures>
+    </Alumne>
+    <Alumne Edat="22">
+        <DNI1>44444444F</DNI1>
+        <Nom>Zutanito</Nom>
+        <Cognom1>López</Cognom1>
+        <Cognom2>Sánchez</Cognom2>
+        <Ciutat>Madrid</Ciutat>
+        <Assignatures>Historia, Literatura</Assignatures>
+    </Alumne>
+</Alumnes>
