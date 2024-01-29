@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuck Quotes example Spring</title>
+    <link rel="stylesheet" th:href="@{webjars/bootstrap/5.2.3/css/bootstrap.min.css}" />
+</head>
+<body>
+<div class="container-fluid bg-dark text-white d-flex justify-content-center">
+    <h2>MP3-UF6 Spring Session 3</h2>
+</div>
+
+<div class="container-fluid border pt-2 d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+        <img class="card-image-top" src="https://source.unsplash.com/random" alt="">
+        <div class="card-body">
+            <h5 class="card-tittle"></h5>
+            <p class="card-text" th:text="${frase}"><p>
+            <a href="#" class="btn btn-primary" onclick="window.location.reload();">Refresh</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
