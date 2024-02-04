@@ -11,24 +11,29 @@ public class UserController {
 
     @Autowired
     UserService userService;
-    public List<User> readAll(){
+
+    public List<User> readAll() {
         return userService.readAllUsers();
-
     }
-
 
     public User getUserById(Integer id) {
-        Optional<User> optionalUser;
-        optionalUser = userService.readAllUsers().stream().filter(u -> u.id() == id).findFirst();
-        if(optionalUser.isPresent()) return optionalUser.get();
-        else return null;
+        Optional<User> optionalUser = userService.readAllUsers().stream().filter(u -> u.id().equals(id)).findFirst();
+        return optionalUser.orElse(null);
     }
 
-    public void addUser(User user){
+    public void addUser(User user) {
         userService.addUser(user);
     }
 
-    public void deleteUser (Integer id){
+    public void deleteUser(Integer id) {
         userService.removeUser(id);
+    }
+
+    public void updateUser(Integer id, User updatedUser) {
+        userService.updateUser(id, updatedUser);
+    }
+
+    public void partiallyUpdateUser(Integer id, User partialUser) {
+        userService.partiallyUpdateUser(id, partialUser);
     }
 }
